@@ -37,7 +37,7 @@ const MagicNumber = (props) => {
 		}
 		const data = {
 			spinData: {
-				id: "001",
+				id: state.user.games.length + 1,
 				slot_1: slot_1,
 				slot_2: slot_2,
 				slot_3: slot_3,
